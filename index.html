@@ -1,125 +1,171 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>KHII UNCHEK</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #0f0f0f;
-      color: #ffffff;
-    }
-    .container {
-      max-width: 800px;
-      margin: auto;
-      padding: 20px;
-    }
-    h1 {
-      text-align: center;
-      color: #00ff99;
-      margin-bottom: 5px;
-    }
-    .subtitle {
-      text-align: center;
-      color: #bbb;
-      margin-bottom: 25px;
-    }
-    .card {
-      background: #1a1a1a;
-      border-radius: 12px;
-      padding: 15px;
-      margin-bottom: 20px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    }
-    .card h2 {
-      color: #00ff99;
-      font-size: 18px;
-      margin-bottom: 10px;
-    }
-    .list {
-      line-height: 1.8;
-      font-size: 15px;
-    }
-    .order-btn {
-      display: block;
-      text-align: center;
-      background: #00ff99;
-      color: #000;
-      text-decoration: none;
-      padding: 12px;
-      border-radius: 10px;
-      font-weight: bold;
-      margin-top: 15px;
-    }
-    .order-btn:hover {
-      background: #00cc7a;
-    }
-    .payment {
-      font-size: 14px;
-      line-height: 1.8;
-    }
-    .footer {
-      text-align: center;
-      font-size: 13px;
-      color: #aaa;
-      margin-top: 30px;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KHII NESIA</title>
+
+<style>
+body{
+  margin:0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: radial-gradient(circle at top, #3b2b00, #0f0a00);
+  color:#fff;
+}
+.container{
+  max-width:420px;
+  margin:auto;
+  padding:20px;
+  animation: fadeUp 1s ease;
+}
+@keyframes fadeUp{
+  from{opacity:0; transform:translateY(30px);}
+  to{opacity:1; transform:translateY(0);}
+}
+.logo{
+  text-align:center;
+}
+.logo img{
+  width:150px;
+  border-radius:16px;
+  box-shadow:0 0 25px rgba(255,215,100,0.8);
+  animation: glow 2s infinite alternate;
+}
+@keyframes glow{
+  from{box-shadow:0 0 15px rgba(255,215,100,0.5);}
+  to{box-shadow:0 0 30px rgba(255,215,100,1);}
+}
+h1{
+  text-align:center;
+  color:#ffd86b;
+  margin:15px 0 5px;
+}
+.subtitle{
+  text-align:center;
+  font-size:13px;
+  opacity:0.8;
+}
+.card{
+  background: linear-gradient(145deg, #1a1200, #0d0800);
+  border:1px solid #ffd86b55;
+  border-radius:16px;
+  padding:15px;
+  margin-top:16px;
+  animation: fadeUp 1.2s ease;
+}
+.card h2{
+  color:#ffde8a;
+  font-size:15px;
+  margin-bottom:10px;
+}
+.list p{
+  margin:6px 0;
+  font-size:14px;
+}
+.btn{
+  display:block;
+  text-align:center;
+  margin-top:16px;
+  padding:14px;
+  border-radius:16px;
+  background: linear-gradient(135deg,#ffd86b,#ffb300);
+  color:#000;
+  font-weight:bold;
+  text-decoration:none;
+  animation: pulse 1.5s infinite;
+}
+@keyframes pulse{
+  0%{transform:scale(1);}
+  50%{transform:scale(1.05);}
+  100%{transform:scale(1);}
+}
+.link{
+  display:block;
+  text-align:center;
+  margin-top:10px;
+  color:#ffd86b;
+  text-decoration:none;
+  font-size:13px;
+}
+.footer{
+  text-align:center;
+  font-size:12px;
+  opacity:0.6;
+  margin-top:20px;
+}
+</style>
 </head>
+
 <body>
+<div class="container">
 
-  <div class="container">
-    <h1>KHII UNCHEK</h1>
-    <div class="subtitle">ADA HARGA ADA KUALITAS</div>
-
-    <div class="card">
-      <h2>LIST HARGA UNCHEK VIP</h2>
-      <div class="list">
-        20K – 15 UNCHEK (65%)<br>
-        30K – 25 UNCHEK (75%)<br>
-        35K – 30 UNCHEK (80%)<br>
-        40K – 35 UNCHEK (90%)<br>
-        50K – 45 UNCHEK (100%)
-      </div>
-      <a class="order-btn" href="https://wa.me/6283870663798?text=Halo%20admin%20KHII%20UNCHEK,%20saya%20mau%20order%20UNCHEK%20VIP" target="_blank">
-        ORDER VIP VIA WHATSAPP
-      </a>
-    </div>
-
-    <div class="card">
-      <h2>LIST HARGA UNCHEK PREMIUM</h2>
-      <div class="list">
-        Dijamin dapat akun OLD + SULTAN<br><br>
-        50K – 20 UNCHEK<br>
-        60K – 25 UNCHEK<br>
-        70K – 30 UNCHEK<br>
-        80K – 35 UNCHEK<br>
-        100K – 50 UNCHEK<br>
-        150K – 75 UNCHEK<br>
-        200K – 100 UNCHEK
-      </div>
-      <a class="order-btn" href="https://wa.me/6283870663798?text=Halo%20admin%20KHII%20UNCHEK,%20saya%20mau%20order%20UNCHEK%20PREMIUM" target="_blank">
-        ORDER PREMIUM VIA WHATSAPP
-      </a>
-    </div>
-
-    <div class="card">
-      <h2>PAYMENT PEMBAYARAN</h2>
-      <div class="payment">
-        DANA: 089620156579<br>
-        A/N: ALLAN AHMAD TRIJAYA<br><br>
-        GOPAY: 083870663798<br>
-        A/N: ALLAN AHMAD TRIJAYA<br><br>
-        QRIS: MINTA KE ADMIN
-      </div>
-    </div>
-
-    <div class="footer">
-      © 2025 KHII UNCHEK • Order Aman & Terpercaya
-    </div>
+  <div class="logo">
+    <img src="logo.png" alt="KHII NESIA">
   </div>
 
+  <h1>KHII NESIA</h1>
+  <div class="subtitle">⚡ LIST UNCEK PREMIUM & TERPERCAYA ⚡</div>
+
+  <div class="card">
+    <h2>👑 UNCEK BY BIASA</h2>
+    <div class="list">
+      <p>10K — 40 UNCEK</p>
+      <p>15K — 60 UNCEK</p>
+      <p>20K — 80 UNCEK</p>
+      <p>25K — 100 UNCEK</p>
+      <p>30K — 120 UNCEK</p>
+      <p>35K — 140 UNCEK</p>
+      <p>40K — 160 UNCEK</p>
+      <p>45K — 180 UNCEK</p>
+      <p>50K — 200 UNCEK</p>
+    </div>
+
+    <a class="btn"
+    href="https://wa.me/6283870663798?text=ORDER%20UNCEK%20BIASA%0ANama:%0APaket:%0APayment:%0A">
+    🛒 ORDER UNCEK BIASA
+    </a>
+  </div>
+
+  <div class="card">
+    <h2>💎 UNCEK BY VVIP</h2>
+    <div class="list">
+      <p>15K — 30 UNCEK</p>
+      <p>20K — 40 UNCEK</p>
+      <p>25K — 60 UNCEK</p>
+      <p>30K — 80 UNCEK</p>
+      <p>35K — 100 UNCEK</p>
+      <p>40K — 120 UNCEK</p>
+      <p>45K — 140 UNCEK</p>
+      <p>50K — 160 UNCEK</p>
+      <p>55K — 180 UNCEK</p>
+    </div>
+
+    <a class="btn"
+    href="https://wa.me/6283870663798?text=ORDER%20UNCEK%20VVIP%0ANama:%0APaket:%0APayment:%0A">
+    💬 ORDER UNCEK VVIP
+    </a>
+  </div>
+
+  <div class="card">
+    <h2>🔥 KEUNTUNGAN</h2>
+    <p>✔ Uncek Berisi</p>
+    <p>✔ Via Email (Bukan SS)</p>
+    <p>✔ Fresh UNCHRK</p>
+    <p>✔ Tutor Pakai & Pasang</p>
+  </div>
+
+  <a class="link" href="https://whatsapp.com/channel/0029VbC8cp5ISTkI90aXov3n" target="_blank">
+    📢 Saluran WhatsApp
+  </a>
+
+  <a class="link" href="https://chat.whatsapp.com/CYZWoLtkXfeIEZC6tac2CN" target="_blank">
+    👥 Grup WhatsApp
+  </a>
+
+  <div class="footer">
+    © KHII NESIA • Ada harga ada kualitas
+  </div>
+
+</div>
 </body>
 </html>
